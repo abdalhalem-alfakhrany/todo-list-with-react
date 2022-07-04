@@ -1,0 +1,29 @@
+#tasks-list {
+    background-color: #C4DFAA;
+    margin: 10px 5px 0px 5px;
+    border-radius: 5px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+}
+
+.task-title {
+    flex-grow: 1;
+    margin: 10px 10px 10px 5px;
+    font-size: 20px;
+    padding: 3px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.task-done,
+.remove-task {
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
